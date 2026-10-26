@@ -1,0 +1,17 @@
+# G*Power dağıtım dosyaları repoya konmaz (ders kuralı)
+GPower*
+GPowerNT.exe
+*.exe
+*.zip
+*.msi
+
+# Decompile ve REA ham çıktıları repoya konmaz
+analysis/
+decompile/
+rea-output/
+*.evidence.json
+*.snapshot.json
+
+# Geçici
+__pycache__/
+*.pyc
